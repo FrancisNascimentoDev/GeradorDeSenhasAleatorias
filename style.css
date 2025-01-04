@@ -18,8 +18,8 @@ body {
     width: 100%;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(196, 33, 33, 0.1);
+    background-color: #b9b6b6;
 }
 
 h1 {
@@ -99,7 +99,7 @@ button {
 
 /* Tema Escuro */
 body.dark {
-    background-color: #333;
+    background-color: #030303;
     color: #fff;
 }
 
@@ -109,5 +109,33 @@ body.dark button {
 
 body.dark #theme-toggle {
     background-color: #dddddd00;
-    color: #333333f6;
+    color: #333333;
+}
+
+/* Alterações do container no tema escuro */
+body.dark .container {
+    background-color: #444;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(12, 12, 12, 0.3);
+}
+
+body.dark .option label {
+    color: #fff;
+}
+
+body.dark .option input[type="number"],
+body.dark .option input[type="text"] {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #888;
+}
+
+body.dark .password-box {
+    color: #fff;
+}
+
+body.dark #password {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #888;
 }
