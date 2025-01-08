@@ -147,9 +147,10 @@ body.dark #password {
 
 
 /* Responsividade para telas pequenas */
-@media (max-width: 600px) {
-    .option-group {
-        flex-direction: column;
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
     }
 
     .button {
